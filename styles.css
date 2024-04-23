@@ -159,3 +159,17 @@ button{
   color: aliceblue;
   border-color: white;
 }
+@media(max-width:760px){
+  body{
+    flex-direction: column;
+    height: 100%;
+  }
+  .card1{
+    border-top-right-radius: 13px;
+    border-bottom-left-radius:0 ;
+  }
+  .card3{
+    border-top-right-radius: 0;
+    border-bottom-left-radius:13px ;
+  }
+}
